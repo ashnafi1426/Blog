@@ -175,6 +175,9 @@ Autosave drafts (localStorage + PUT /api/posts/:id/draft)
 
 Image upload integration → POST /api/uploads returns URL
 
+
+
+
 Publish → POST /api/posts or PUT /api/posts/:id
 
 API calls

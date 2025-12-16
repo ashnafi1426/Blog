@@ -4,6 +4,8 @@ import jwt from "jsonwebtoken";
 export const protect = (req, res, next) => {
   let token = req.headers.authorization;
 
+
+  
   // ✅ Check if token exists and starts with Bearer
   if (!token || !token.startsWith("Bearer ")) {
     return res.status(401).json({ message: "Not authorized, no token" });
